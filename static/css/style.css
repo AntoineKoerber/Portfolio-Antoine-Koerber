@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.10.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -136,6 +129,7 @@ h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  padding:10px;
 }
 
 #hero:before {
@@ -161,6 +155,10 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+}
+
+#hero .name_title {
+    line-height:50px;
 }
 
 #hero p {
